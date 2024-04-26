@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        .comtainer{
+            border: 2px solid black;
+        }
+        .row{
+            border: 2px solid purple; 
+        }
+        .col{
+            border: 2px solid palevioletred; 
+        }
+    .a{
+        border: 2px solid red;
+    }
+    </style>
+</head>
+
+<!-- md when used with order gives reaggarngement in the order as when taken to medium screen  -->
+
+<body>
+   <div class="container">
+    <div class="row">
+        <div class="col">col 1</div>
+        <div class="col order-md-last">col 2</div>
+        <div class="col">col 3</div>
+        <div class="col order-md-first">col 4</div>
+        <div class="col">col 5</div>
+    </div>
+   </div>
+   <br> 
+   <div class="container a">
+    <div class="row">
+        <div class="col order-4">col 1</div>
+        <div class="col order-0">col 2</div>
+        <div class="col order-2">col 3</div>
+        <div class="col order-1">col 4</div>
+        <div class="col order-3">col 5</div>
+
+    </div>
+   </div>
+</body>
+</html>

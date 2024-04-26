@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="py-3 text-center">Bootstrap Inline & Horizontal</h2>
+        <div class="row py-3">
+            <form action="" class="form-inline">
+                <div class="form-group mx-sm-3">
+                    <label for="" class="sr-only">Username</label>
+                    <input type="text" class="form-control" placeholder="User-name">
+                </div>
+                <div class="form-group mx-sm-3">
+                    <label for="" class="sr-only">Password</label>
+                    <input type="password" class="form-control" placeholder="Password">
+
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+    <hr><br>
+    <div class="container">
+        <h2 class="py-3 text-center">Bootstrap Inline & Horizontal</h2>
+         <form action="" class="row py-3">
+            <div class="col-md-4">
+                <label for="" class="sr-only">Username</label>
+                <input type="text" class="form-control" placeholder="User-name">
+            </div>
+            <div class="col-md-4">
+                <label for="" class="sr-only">Password</label>
+                    <input type="password" class="form-control" placeholder="Password">
+
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+         </form>
+    </div>
+    <hr><br>
+    <!-- the above two methods are incorrect because the space between the three is different to solve it there is 
+    different version of it -->
+    <div class="container">
+        <h2 class="py-3 text-center">Bootstrap Inline & Horizontal</h2>
+        
+            <form action="" class="form-row py-3">
+                <div class="col-md-4">
+                    <label for="" class="sr-only">Username</label>
+                    <input type="text" class="form-control" placeholder="User-name">
+                </div>
+                <div class="col-md-4">
+                    <label for="" class="sr-only">Password</label>
+                    <input type="password" class="form-control" placeholder="Password">
+
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
